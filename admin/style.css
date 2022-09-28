@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.side_nav {
+    width: 250px;
+    height: 100%;
+    background-color: azure;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 30px;
+
+}
+
+
+
+
+.nav_links {
+
+    list-style: none;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+.nav_links li {
+    padding: 10px 0;
+
+}
+
+.nav_links p {
+    color: dodgerblue;
+}
+
+.nav_links a {
+    color: dodgerblue;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    padding: 10px 14px;
+    display: flex;
+    /* kat7athom alinger*/
+    align-items: center;
+}
+
+.nav_links li a i {
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.active {
+    transition: top 0.3s;
+    background-color: #fff;
+    width: 100%;
+    height: 47px;
+    position: absolute;
+    left: 0;
+    top: 2.6%;
+    z-index: -1;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.4);
+    display: none;
+}
+
+.nav_links li:hover a {
+    color: dodgerblue;
+
+}
+
+.nav_links li:hover~.active {
+    display: block;
+}
+
+.nav_links li:nth-child(1):hover~.active {
+    top: 2.6%;
+}
+
+.nav_links li:nth-child(2):hover~.active {
+    top: 27.6%;
+}
+
+.nav_links li:nth-child(3):hover~.active {
+    top: 52.6%;
+}
+
+.nav_links li:nth-child(4):hover~.active {
+    top: 77.6%;
+}

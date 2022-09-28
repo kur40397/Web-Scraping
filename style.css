@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* chakl dial scrool radi ikoun smouth*/
+}
+
+
+
+header {
+    background-color: azure;
+    width: 100%;
+    /* l3ad kolo*/
+    position: fixed;
+    /* bach tbka mfiksia*/
+    z-index: 999;
+    /*  bach ibka aktar 7aja 5arja bra*/
+    display: flex;
+    justify-content: space-between;
+    /*justify-content kat7akam f dakchi lda5al*/
+    /*space-between la création un espace entre eux*/
+    align-items: center;
+    /* dakchi li lda5al msintri*/
+    padding: 3px 100px;
+    /*Padding is used to create space around an element's content, inside of any defined borders.*/
+
+    top: 0px;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    position: relative;
+    right: 60px;
+}
+
+
+
+.navigation a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    /*espace entre larawabit*/
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+.navigation a:hover {
+
+    color: black;
+}
+
+
+
+
+.navigation a:hover {
+    color: steelblue;
+}
+
+section {
+    padding: 130px 200px;
+    /*Padding is used to create space around an element's content, inside of any defined borders.*/
+    text-align: center;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: url(image/web.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.main span {
+    color: dodgerblue;
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.main p {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: dodgerblue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    position: relative;
+    right: 15px;
+}
+
+.cards {
+    background-color: #fff;
+    width: 17em;
+    box-shadow: 0 5px 25px dodgerblue;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 12px;
+    transition: 0.7s ease;
+}
+
+
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: dodgerblue;
+    font-size: 8em;
+
+}
+
+.card {
+    box-shadow: 0 5px 100px #fff;
+    background-color: #fff;
+}
+
+.contact .icon {
+    font-size: 7em;
+}
+
+.contact .info h3 {
+    color: #000
+}
+
+.contact .info a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000
+}
+
+.footer {
+    background-color: azure;
+    color: rgb(30, 143, 255);
+    padding: 1em;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    margin-top: 10px;
+    z-index: 999;
+}
+
+.social-icons a {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer-title {
+    font-weight: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #000
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+#myBtn {
+    display: block;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(30, 143, 255);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/* scroll design */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(30, 143, 255);
+    border-radius: 10px;
+}
+
+
+
+/* Handle on hover */

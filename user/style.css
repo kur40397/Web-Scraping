@@ -1,0 +1,27 @@
+#message {
+    display: none;
+}
+
+/* Add a blue text color and a checkmark when the requirements are right */
+.valid {
+    color: blue;
+}
+
+/* kbal mn jomla*/
+.valid::before {
+    content: "✔";
+    position: relative;
+    left: -15px;
+}
+
+/* Add grey text color and x */
+.invalid {
+    color: gray;
+}
+
+.invalid:before {
+
+    position: relative;
+    left: -5px;
+
+}
